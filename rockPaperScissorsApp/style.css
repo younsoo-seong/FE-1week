@@ -1,0 +1,75 @@
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.score-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 5px 8px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.result {
+  display: none;
+  justify-content: center;
+}
+
+.end {
+  display: none;
+  justify-content: center;
+}
+
+.game-result {
+  display: none;
+  justify-content: center;
+}
+
+.restart {
+  padding: 5px 8px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  display: none;
+}

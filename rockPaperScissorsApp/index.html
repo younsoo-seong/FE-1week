@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rock paper scissors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>가위 바위 보</h1>
+  <div class="score-container">
+    <div class="score">
+      <h2>플레이어</h2>
+      <h2 id="userPoint">0</h2>
+    </div>
+    <div class="score">
+      <h2>컴퓨터</h2>
+      <h2 id="computerPoint">0</h2>
+    </div>
+  </div>
+  <div class="info">
+    <h2>선택하기</h2>
+    <h3 id="times">남은 횟수 : 10</h3>
+  </div>
+  <div class="button-container">
+    <button class="button" choice="scissors">가위</button>
+    <button class="button" choice="rock">바위</button>
+    <button class="button" choice="paper">보</button>
+  </div>
+  <h3 id="result" class="result"></h3>
+  
+  <h2 id="end" class="end">게임 종료!</h2>
+  <h2 id="gameResult" class="game-result"></h2>
+  <div class="button-container">
+    <button id="restart" class="restart">다시하기</button>
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
