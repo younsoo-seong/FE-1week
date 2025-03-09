@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: gray;
+}
+
+.box {
+  height: 150px;
+  width: 90%;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.quiz {
+  margin-top: 0px;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: gray;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  width: 30%
+}
+
+.nextButton {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: calc(50% - 50px);
+  width: 100px;
+  height: 30px;
+}
